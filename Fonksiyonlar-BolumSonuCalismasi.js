@@ -7,6 +7,7 @@ let increaseDOM = document.querySelector("#increase")
 let decreaseDOM = document.querySelector("#decrease")
 
 counterDOM.innerHTML = counter
+// bu kısım yazılmazsa, counter html'de verilen ilk değerinden başlar 
 
 increaseDOM.addEventListener("click", clickIncrease)
 
