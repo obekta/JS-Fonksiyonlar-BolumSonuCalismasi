@@ -15,6 +15,7 @@ function clickIncrease() {
     console.log(this.id)
     counterDOM.innerHTML = ++counter 
     // counterDOM.innerHTML = counter += şeklinde de yazılabilirdi
+    // counterDOM.innerHTML++ şeklinde de yazılabilirdi
 }
 
 decreaseDOM.addEventListener("click", clickDecrease)
@@ -23,4 +24,5 @@ function clickDecrease() {
     console.log(this.id)
     counterDOM.innerHTML = --counter 
     // counterDOM.innerHTML = counter -= şeklinde de yazılabilirdi
+    // counterDOM.innerHTML-- şeklinde de yazılabilirdi
 }
